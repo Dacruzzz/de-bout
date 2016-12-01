@@ -1,0 +1,235 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+@import "font-awesome-sprockets";
+@import "font-awesome";
+
+//AFFIX TOOLBAR
+.affix {
+  top:0;
+  width: 100%;
+  z-index: 9999 !important;
+}
+
+.affix ~ .container-fluid {
+  position: relative;
+  top: 50px;
+}
+
+.header {
+  padding-left:0px;
+  padding-right:0px;
+  color:#fff;
+  height:150px;
+}
+// END OF AFFIX TOOLBAR
+
+// NAVBAR BUTTONS
+#navbar-button, .navbar-brand {
+  width:10em;
+}
+//END OF NAVBAR BUTTONS
+
+//BACKGROUND
+body {
+  position:relative;
+  background: #8e9eab; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #8e9eab , #eef2f3); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #8e9eab , #eef2f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+//END OF BACKGROUND
+
+//BOOTSTRAP NAVBAR ADJUSTMENT TWBSColor
+.navbar-default {
+  background-color: #337ab7;
+  border-color: #fbb100;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  margin-bottom: 0px;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #fbb100;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #fbb100;
+}
+.navbar-default .navbar-toggle {
+  border: 0px;
+  border-color: #ffffff;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #337ab7;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+button.navbar-toggle.collapsed {
+  border: 1px solid #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #fbb100;
+  }
+}
+// END OF NAVBAR ADJUSTMENT
+
+// SECTIONS
+#maincontainer {
+  padding:0px;
+}
+
+#sectionhome {
+  padding: 2em;
+  padding-top: 75px;
+  color: #fff;
+  background-color: #1E88E5;
+}
+
+#sectionaboutus {
+  padding: 2em;
+  padding-top: 75px;
+  color: #fff;
+  background-color: #673ab7;
+}
+
+#sectionprojects {
+  padding: 2em;
+  padding-top: 75px;
+  color: #fff;
+  background-color: #ff9800;
+}
+
+#sectionofferte {
+  padding: 2em;
+  padding-top: 75px;
+  color: #fff;
+  background-color: #00bcd4;
+}
+
+#sectioncontact {
+  padding: 2em;
+  padding-top: 75px;
+  color: #fff;
+  background-color: #009688;
+}
+// END OF SECTIONS
+
+// TEXTBOX FORM CONTROL
+.textbox {
+  resize:none;
+}
+// END OF TEXTBOX FORM CONTROL
+
+// FOOTER
+footer {
+  border-top: 1px solid white;
+  border-left: 0px;
+  border-right: 0px;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  color: white;
+  background-color: #337ab7;
+  width: 100%;
+  height: 50px;
+  bottom: 0px;
+  z-index: 9999;
+}
+
+.facebookbutton {
+  color: #3b5998;
+}
+// END OF FOOTER
+
+// PANEL PADDING AND BORDERS
+.panel {
+  border-radius: 0px;
+}
+.panel-heading {
+  border-radius: 0px;
+}
+.panel-primary {
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#panelprojecten {
+  max-height:600px;
+}
+
+// END OF PANEL PADDING
+
+// MODAL SCROLLBAR
+.modal .modal-body {
+  max-height: 450px;
+  overflow-y: auto;
+}
+// END OF MODAL SCROLLBAR
+
+// CAROUSEL
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  width: 70%;
+  margin: auto;
+}
+// END OF CAROUSEL
