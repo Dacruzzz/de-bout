@@ -32,11 +32,14 @@
 }
 
 .header {
-  padding-left:0px;
-  padding-right:0px;
+  padding-left:50px;
+  padding-right:50px;
   color:#fff;
-  height:150px;
+  background: #ffffff; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #68b2e8 , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #68b2e8 , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
+
 // END OF AFFIX TOOLBAR
 
 // NAVBAR BUTTONS
@@ -141,36 +144,29 @@ button.navbar-toggle.collapsed {
 }
 
 #sectionhome {
-  padding: 2em;
-  padding-top: 75px;
+  padding: 3em;
+  padding-top: 50px;
   color: #fff;
   background-color: #1E88E5;
 }
 
 #sectionaboutus {
-  padding: 2em;
-  padding-top: 75px;
+  padding: 3em;
+  padding-top: 50px;
   color: #fff;
   background-color: #673ab7;
 }
 
-#sectionprojects {
-  padding: 2em;
-  padding-top: 75px;
+#sectionprices {
+  padding: 3em;
+  padding-top: 50px;
   color: #fff;
   background-color: #ff9800;
 }
 
-#sectionofferte {
-  padding: 2em;
-  padding-top: 75px;
-  color: #fff;
-  background-color: #00bcd4;
-}
-
 #sectioncontact {
-  padding: 2em;
-  padding-top: 75px;
+  padding: 3em;
+  padding-top: 50px;
   color: #fff;
   background-color: #009688;
 }
@@ -196,10 +192,6 @@ footer {
   bottom: 0px;
   z-index: 9999;
 }
-
-.facebookbutton {
-  color: #3b5998;
-}
 // END OF FOOTER
 
 // PANEL PADDING AND BORDERS
@@ -213,9 +205,6 @@ footer {
     padding-left: 0px;
     padding-right: 0px;
 }
-#panelprojecten {
-  max-height:600px;
-}
 
 // END OF PANEL PADDING
 
@@ -225,11 +214,3 @@ footer {
   overflow-y: auto;
 }
 // END OF MODAL SCROLLBAR
-
-// CAROUSEL
-.carousel-inner > .item > img,
-.carousel-inner > .item > a > img {
-  width: 70%;
-  margin: auto;
-}
-// END OF CAROUSEL
