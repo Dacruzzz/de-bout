@@ -1,7 +1,7 @@
 $(document).ready(function(){
     
     $('.alert').css('margin-bottom', 0);
-    $('.alert').css('border-radius', 0);    
+    $('.alert').css('border-radius', 0);
     
     var x = screen.height - 150;
     $('#sectionhome').css('min-height', x);
@@ -17,6 +17,9 @@ $(document).ready(function(){
     } else {
         $('.active > a').css('min-width', y);
     }
+    
+    $('.img-fluid').css('min-width', y);
+    $('.img-fluid').css('min-height', 150);
     
     $('body').css('max-width', y);
 });
