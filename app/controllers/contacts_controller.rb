@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
             body = params[:contact][:comments]
             ContactMailer.contact_email(name, email, body).deliver
             flash[:success] = "Bericht verstuurd, u krijgt zo spoedig mogelijk reactie!"
-            redirect_to new_contact_path
+            redirect_to root_path
         else
             render new_contact_path
         end

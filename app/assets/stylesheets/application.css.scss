@@ -34,19 +34,13 @@
 .header {
   padding-left:50px;
   padding-right:50px;
-  color:#fff;
+  color:#656565;
   background: #ffffff; /* fallback for old browsers */
   background: -webkit-linear-gradient(to left, #68b2e8 , #ffffff); /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to left, #68b2e8 , #ffffff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 // END OF AFFIX TOOLBAR
-
-// NAVBAR BUTTONS
-#navbar-button, .navbar-brand {
-  width:10em;
-}
-//END OF NAVBAR BUTTONS
 
 //BACKGROUND
 body {
@@ -69,7 +63,7 @@ body {
 }
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #ffffff;
+  color: #ff8b14;
 }
 .navbar-default .navbar-text {
   color: #008fff;
@@ -79,7 +73,7 @@ body {
 }
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: #ff8b14;
 }
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
@@ -114,9 +108,7 @@ body {
 .navbar-default .navbar-link:hover {
   color: #ffffff;
 }
-button.navbar-toggle.collapsed {
-  border: 1px solid #008fff;
-}
+
 @media (max-width: 767px) {
   .navbar-default .navbar-nav .open .dropdown-menu > li > a {
     color: #008fff;
@@ -132,6 +124,15 @@ button.navbar-toggle.collapsed {
     background-color: #008fff;
   }
 }
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus{
+  background-color: #ffffff;
+  border: 1px solid #008fff;
+}
+button.navbar-toggle.collapsed {
+  border: 1px solid #008fff;
+}
 // END OF NAVBAR ADJUSTMENT
 
 // SECTIONS
@@ -141,28 +142,28 @@ button.navbar-toggle.collapsed {
 
 #sectionhome {
   padding: 3em;
-  padding-top: 50px;
+  padding-top: 4em;
   color: #fff;
-  background-color: #4cbbff;
+  background-color: #fbb034;
 }
 
 #sectionaboutus {
   padding: 3em;
-  padding-top: 50px;
+  padding-top: 4em;
   color: #fff;
-  background-color: #32b2ff;
+  background-color: #4f4949;
 }
 
 #sectionprices {
   padding: 3em;
-  padding-top: 50px;
+  padding-top: 4em;
   color: #fff;
   background-color: #19a8ff;
 }
 
 #sectioncontact {
   padding: 3em;
-  padding-top: 50px;
+  padding-top: 4em;
   color: #fff;
   background-color: #009fff;
 }
@@ -176,13 +177,13 @@ button.navbar-toggle.collapsed {
 
 // FOOTER
 footer {
-  border-top: 1px solid white;
+  border-top: 1px #008fff;
   border-left: 0px;
   border-right: 0px;
   padding-top: 1em;
   padding-bottom: 1em;
-  color: white;
-  background-color: #337ab7;
+  color: #008fff;
+  background-color: #ffffff;
   width: 100%;
   height: 50px;
   bottom: 0px;

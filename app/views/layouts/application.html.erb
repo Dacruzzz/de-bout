@@ -12,7 +12,7 @@
 <div class="container-fluid header">
   <div class="row">
     <div class="img-fluid">
-        <script src="//embed.bannerflow.com/5844a73e5bff713968697409?responsive=on&targeturl=" async></script>
+        <!--<script src="//embed.bannerflow.com/5844a73e5bff713968697409?responsive=on&targeturl=" async></script>-->
     </div>
   </div>
 </div>
@@ -26,20 +26,20 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <%= link_to root_path, class: 'navbar-brand rootbutton' do %> 
-          <i class="fa fa-home fa-lg" aria-hidden="true"></i>
+      <%= link_to root_path, class: 'navbar-brand navbar-button navbw' do %> 
+          <i class="fa fa-arrow-circle-right fa-lg" aria-hidden="true"></i>
           Home
       <% end %>
     </div>
     <div class="collapse navbar-collapse" id="main-nav-collapse">
       <ul class="nav navbar-nav navbar-left">
-        <li id='navbar-button'>
-          <a href="#sectionaboutus"><i class="fa fa-users" aria-hidden="true"></i> Over Ons</a>
+        <li id='navbar-button' class='navbw'>
+          <a href="#sectionaboutus"><i class="fa fa-user-circle" aria-hidden="true"></i> Wie zijn wij</a>
         </li>
-        <li id='navbar-button'>
-          <a href="#sectionprices"><i class="fa fa-suitcase" aria-hidden="true"></i> Projecten</a>
+        <li id='navbar-button' class='navbw'>
+          <a href="#sectionprices"><i class="fa fa-eur" aria-hidden="true"></i> Prijzen</a>
         </li>
-        <li id='navbar-button'>
+        <li id='navbar-button' class='navbw'>
           <a href="#sectioncontact"><i class="fa fa-envelope" aria-hidden="true"></i> Contact</a>
         </li>
       </ul>
@@ -55,17 +55,19 @@
 </div>
 
 <footer class="container-fluid text-center">
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
-  
-  </div>
-  <div class="hidden-xs hidden-sm col-md-8 col-lg-8">
-    <p>(06) 307 949 36   |   debout@hotmail.nl   |   Kanaalweg 31-9 8861VA te Harlingen   |   Kvk 53738608   |   www.wasenstrijkdebout.nl</p>
-  </div>
-  <!--<div class="hidden-md hidden-lg col-xs-12 col-sm-12" style="padding-bottom:0em;">
-    <p>(06) 403 511 38<br>renoveren.ln@gmail.com<br>www.LN-Renoveren.nl</p>
-  </div>-->
-  <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+  <div class="row">
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
     
+    </div>
+    <div class="hidden-xs hidden-sm col-md-8 col-lg-8">
+      <p>(06) 307 949 36   |   debout@hotmail.nl   |   Kanaalweg 31-9 8861VA te Harlingen   |   Kvk 53738608   |   www.wasenstrijkdebout.nl</p>
+    </div>
+    <div class="hidden-md hidden-lg col-xs-12 col-sm-12">
+      <p>www.wasenstrijkdebout.nl</p>
+    </div>
+    <div class="hidden-xs hidden-sm col-md-2 col-lg-2">
+      
+    </div>
   </div>
 </footer>
 
