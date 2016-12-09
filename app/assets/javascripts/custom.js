@@ -10,15 +10,16 @@ $(document).ready(function(){
     $('#sectionprices').css('min-height', x);
 
     var y = screen.width;
-    var bw = y/4.25 ;
+    var ybutton = y/4.25;
+    var yheader = y/1.25;
     
     if(y > 700){
-        $('.navbw').css('min-width', bw);
+        $('.navbw').css('min-width', ybutton);
     } else {
         $('.active > a').css('min-width', y);
     }
     
-    $('.img-fluid').css('min-width', y);
+    $('.img-fluid').css('min-width', yheader);
     $('.img-fluid').css('min-height', 150);
     
     $('body').css('max-width', y);
