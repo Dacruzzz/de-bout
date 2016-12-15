@@ -139,33 +139,39 @@ button.navbar-toggle.collapsed {
 }
 
 #sectionhome {
-  padding: 3em;
+  padding: 4em;
   padding-top: 4em;
   color: #fff;
   background-color: #6faed4;
 }
 
 #sectionaboutus {
-  padding: 3em;
+  padding: 4em;
   padding-top: 4em;
   color: #fff;
   background-color: #5ba3ce;
 }
 
 #sectionprices {
-  padding: 3em;
+  padding: 4em;
   padding-top: 4em;
   color: #fff;
   background-color: #4898c8;
 }
 
 #sectioncontact {
-  padding: 3em;
+  padding: 4em;
   padding-top: 4em;
   color: #fff;
   background-color: #398cbe;
 }
 // END OF SECTIONS
+
+// CONTAINER WIDTH
+.imgclass {
+  width:50%;
+}
+// END OF CONTAINER WIDTH
 
 // TEXTBOX FORM CONTROL
 .textbox {
