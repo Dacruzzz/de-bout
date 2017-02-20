@@ -36,11 +36,28 @@
   padding-right:50px;
   color:#656565;
   background: #ffffff; /* fallback for old browsers */
+  max-height:200px;
 }
 
 // END OF AFFIX TOOLBAR
 
-//BACKGROUND
+// BANNER TEXT & IMAGE
+.imghead{
+  top:-10px;
+}
+
+.smallhead{
+  color:#008fff;
+  font-size:30px;
+}
+
+.bighead{
+  color:#008fff;
+  font-size:50px;
+}
+// END OF BANNER TEXT
+
+// BACKGROUND
 body {
   position:relative;
   background: #8e9eab; /* fallback for old browsers */

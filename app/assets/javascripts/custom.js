@@ -29,11 +29,12 @@ $(document).ready(function(){
         }
     });
 
-    // RESIZE BUTTONS ON WINDOW RESIZE
+    // RESIZE BUTTONS & BODY ON WINDOW RESIZE
     $(window).resize(function(){
         var yx = $(this).width();
         var yxbutton = yx/4;
         $('.navbw').css('min-width', yxbutton);
+        $('body').css('min-width', yx)
     });
     
 });

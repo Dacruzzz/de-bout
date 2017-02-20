@@ -10,11 +10,15 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
   
 <div class="container-fluid header">
-  <div class="row">
-    <div class="img-fluid">
-        <!--<script src="//embed.bannerflow.com/5844a73e5bff713968697409?responsive=on&targeturl=" async></script>-->
+    <div class="row col-lg-offset-1 col-md-offset-1 img-fluid">
+      <div class="col-lg-2 col-md-2 hidden-sm hidden-xs imghead">
+        <%= image_tag("reslogo3.jpg", :class => "img-fluid pull-left")%>
+      </div>
+      <div class="col-lg-8 col-md-8 col-sm-10 col-xs-10">
+        <h3 class="smallhead text-left">Was en Strijk</h3>
+        <h1 class="bighead text-right">de Bout</h1>
+      </div>
     </div>
-  </div>
 </div>
 
 <nav class="navbar navbar-default navbar-static-top" role="navigation" data-spy="affix" data-offset-top="147">
